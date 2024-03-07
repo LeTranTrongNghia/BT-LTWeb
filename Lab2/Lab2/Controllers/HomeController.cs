@@ -13,7 +13,7 @@ namespace Lab2.Controllers
             return View();
         }
 
-        public ActionResult test()
+        public ActionResult info()
         {
             return View();
         }

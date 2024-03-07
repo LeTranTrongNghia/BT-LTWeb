@@ -20,9 +20,9 @@ namespace Lab2
             );
 
             routes.MapRoute(
-                name: "test",
+                name: "info",
                 url: "{controller}/{category}/{name}", 
-                defaults: new { controller = "Home", action = "test", name = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "info", name = UrlParameter.Optional }
             );
         }
     }
